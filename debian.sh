@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# install dependencies
+sudo apt update
+sudo apt install -y yaru-theme-icon mint-y-icons fonts-ubuntu
+
 # download and install Mint-Y-Yaru theme
 wget -O /tmp/Mint-Y-Yaru.zip https://github.com/aidanoakes/Mint-Y-Yaru/raw/main/Mint-Y-Yaru.zip
 mkdir -p ~/.themes
@@ -8,14 +12,11 @@ unzip -o /tmp/Mint-Y-Yaru.zip -d ~/.themes/
 # download wallpaper
 sudo wget -O /usr/share/backgrounds/Fuwafuwa_nanbatto_san_by_amaral-light.png https://lovelynightowl.com/assets/img/posts/Fuwafuwa_nanbatto_san_by_amaral-light.png
 
-# install yaru icons and cursor
-sudo apt install -y yaru-theme-icon
-
 # apply themes
 gsettings set org.cinnamon.desktop.interface cursor-theme "Yaru"
 gsettings set org.cinnamon.desktop.interface gtk-theme "Mint-Y-Yaru"
 gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Yaru"
-gsettings set org.cinnamon.desktop.interface icon-theme "Yaru"
+gsettings set org.cinnamon.desktop.interface icon-theme "Mint-Y-Yaru"
 gsettings set org.cinnamon.theme name "Mint-Y-Yaru"
 
 # set wallpaper
