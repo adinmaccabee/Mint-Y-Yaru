@@ -2,10 +2,15 @@
 
 # install dependencies
 sudo apt update
-sudo apt install -y yaru-theme-icon mint-y-icons fonts-ubuntu
+sudo apt install -y yaru-theme-icon git
+
+# install mint-y-icons from source
+git clone --depth=1 https://github.com/linuxmint/mint-y-icons /tmp/mint-y-icons
+sudo cp -r /tmp/mint-y-icons/usr/share/icons/Mint-Y* /usr/share/icons/
+sudo gtk-update-icon-cache /usr/share/icons/Mint-Y 2>/dev/null || true
 
 # download and install Mint-Y-Yaru theme
-wget -O /tmp/Mint-Y-Yaru.zip https://github.com/aidanoakes/Mint-Y-Yaru/raw/main/Mint-Y-Yaru.zip
+wget -O /tmp/Mint-Y-Yaru.zip https://github.com/adinmaccabee/Mint-Y-Yaru/raw/main/Mint-Y-Yaru.zip
 mkdir -p ~/.themes
 unzip -o /tmp/Mint-Y-Yaru.zip -d ~/.themes/
 
