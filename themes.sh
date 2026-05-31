@@ -4,7 +4,7 @@
 sudo apt install -y ubuntu-wallpapers
  
 # download and install Mint-Y-Yaru theme
-wget -O /tmp/Mint-Y-Yaru.zip https://github.com/aidanoakes/Mint-Y-Yaru/raw/main/Mint-Y-Yaru.zip
+wget -O /tmp/Mint-Y-Yaru.zip https://github.com/adinmaccabee/Mint-Y-Yaru/raw/main/Mint-Y-Yaru.zip
 mkdir -p ~/.themes
 unzip -o /tmp/Mint-Y-Yaru.zip -d ~/.themes/
  
