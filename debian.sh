@@ -1,5 +1,17 @@
 #!/bin/bash
 
+if ! id -nG "$(whoami)" | grep -qw sudo; then
+    if [ "$(id -u)" -ne 0 ]; then
+        echo "Root password required to add user $(whoami) to group sudo."
+        exec su -c "bash '$0'"
+    else
+        sudo usermod -aG sudo $1
+        echo "Done adding user $1 to group sudo."
+        # restart script as user with a fresh login shell...
+        exec su - $1 -c "bash '$0'"
+    fi
+fi
+
 # install dependencies
 sudo apt update
 sudo apt install -y yaru-theme-icon mint-y-icons fonts-ubuntu
