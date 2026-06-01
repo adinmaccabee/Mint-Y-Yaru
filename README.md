@@ -2,15 +2,15 @@
 
 A custom dark theme for Linux Mint Cinnamon, based on **Mint-Y-Dark** with an orange accent colour (`#ff7446`) inspired by Ubuntu's Yaru theme.
 
-![Desktop](img2.png)
+![Desktop](img0.png)
 
 ---
 
 ## Preview
 
-![File Manager](img0.png)
+![File Manager](img1.png)
 
-![Theme Settings](img1.png)
+![Theme Settings](img2.png)
 
 ---
 
