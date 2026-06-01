@@ -1,6 +1,6 @@
 # Mint-Y-Yaru
 
-A custom dark theme for Linux Mint Cinnamon combing  **Mint-Y-Dark** with Ubuntu's Yaru theme.
+A custom theme for Linux Mint Cinnamon combing  **Mint-Y-Dark** with Ubuntu's Yaru theme.
 
 ![Desktop](img1.png)
 
