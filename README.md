@@ -1,20 +1,10 @@
 # Mint-Y-Yaru
 
-A custom theme for Linux Mint Cinnamon combing  **Mint-Y-Dark** with Ubuntu's Yaru theme.
+A custom theme for Linux Mint Cinnamon combing  **Mint-Y-Dark** with Ubuntu's Yaru theme including seven wallpapers.
 
 ![Desktop](img1.png)
 
 ![Theme Settings](img2.png)
-
----
-
-## What's included
-
-- **GTK 2/3/4** theme with orange accents
-- **Cinnamon shell** theme
-- **xfwm4** window borders
-- **libadwaita** support
-- 7 wallpapers in `/yaru-wallpapers/`
 
 ---
 
