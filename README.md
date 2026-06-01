@@ -4,10 +4,6 @@ A custom dark theme for Linux Mint Cinnamon combing  **Mint-Y-Dark** with Ubuntu
 
 ![Desktop](img1.png)
 
----
-
-## Preview
-
 ![Theme Settings](img2.png)
 
 ---
