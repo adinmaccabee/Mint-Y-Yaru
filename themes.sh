@@ -18,6 +18,10 @@ gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Yaru"
 gsettings set org.cinnamon.desktop.interface icon-theme "Mint-Y-Yaru"
 gsettings set org.cinnamon.theme name "Mint-Y-Yaru"
 
+# set dark mode
+gsettings set org.cinnamon.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
 # set wallpaper
 gsettings set org.cinnamon.desktop.background picture-uri "file:///usr/share/backgrounds/yaru/sele_ring.png"
 
